@@ -133,3 +133,13 @@ h6 {
   color: green;
   border-bottom: 5px dashed #000;
 }
+
+.content {
+  background: #7ac751;
+}
+.contenier {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
