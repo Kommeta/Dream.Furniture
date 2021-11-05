@@ -105,6 +105,7 @@
   align-items: center;
   border-top: 2.5px solid #7ac751;
   border-bottom: 2.5px solid #7ac751;
+  border-radius: 0 8px 8px 0;
 }
 
 .search-choice-img {
@@ -123,6 +124,7 @@
 .search-button {
   background-color: #7ac751;
   position: absolute;
+  border-radius: 8px 8px 8px 0;
   right: 0px;
   top: 0px;
   height: 100%;
@@ -177,4 +179,50 @@
 .person-img {
   max-height: 25px;
   max-width: 20px;
+}
+.content-grey {
+  background: #f7f8fa;
+}
+.collections {
+  background: #7ac751;
+  display: flex;
+  max-width: 260px;
+  max-height: 67px;
+  margin-right: 50px;
+}
+.contenier-menu {
+  display: flex;
+  align-items: center;
+}
+.all {
+  width: 18px;
+  height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.all-title {
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.menu-categories {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.categories-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #555555;
+  transition: color 0.2s linear;
+}
+
+.categories-link:hover {
+  color: #7ac751;
 }
