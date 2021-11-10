@@ -414,3 +414,85 @@
   max-width: 205px;
   max-height: 58px;
 }
+.offer {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.offer-section {
+  width: 100%;
+  margin-right: 18px;
+}
+.offer-minisection {
+  max-width: 485px;
+  width: 100%;
+}
+.card-offer {
+  position: relative;
+  overflow: hidden;
+}
+.offer-modern {
+  max-width: 669px;
+  min-height: 511px;
+}
+.card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  object-fit: cover;
+}
+.card-header {
+  margin-left: 31px;
+}
+.card-miniheader {
+  margin-left: 24px;
+}
+.card-title {
+  color: #555555;
+  font-size: 22px;
+  margin-top: 49px;
+}
+.card-title-minisection {
+  color: #555555;
+  font-size: 21px;
+  margin-top: 49px;
+}
+.card-description {
+  color: #7ac751;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.card-mini-description {
+  color: #7ac751;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.card-bigger {
+  margin-top: 13px;
+}
+.button-bigger {
+  color: #757575;
+  font-size: 16px;
+}
+.button-bigger {
+  text-decoration: none;
+}
+.bigger-vector {
+  max-width: 11px;
+  max-height: 9px;
+  align-items: center;
+}
+.offer-geometric {
+  max-width: 485px;
+  min-height: 247px;
+  margin-bottom: 17px;
+}
+.offer-minimal {
+  max-width: 485px;
+  min-height: 247px;
+}
