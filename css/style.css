@@ -503,6 +503,7 @@
   text-align: center;
   margin-top: 120px;
   margin-bottom: 45px;
+  text-transform: uppercase;
 }
 .trending-catagory {
   display: flex;
@@ -637,4 +638,135 @@
 }
 .image-block:hover {
   background-color: #99e072;
+}
+
+.special-offer-room {
+  width: 570px;
+  height: 250px;
+  position: relative;
+}
+.living-img {
+  max-width: 100%;
+}
+
+.special-offer-new {
+  font-family: "Mulish", sans-serif;
+  background-color: #00b7f1;
+  color: #ffffff;
+  font-size: 12px;
+  width: 64px;
+  height: 21px;
+  justify-content: center;
+  border-radius: 0 0 0 5px;
+  text-align: center;
+  padding-top: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.special-offer-card {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+}
+.special-offer-title {
+  color: #555555;
+  font-size: 22px;
+  margin-bottom: 11px;
+}
+.special-offer-text {
+  color: #757575;
+  font-size: 12px;
+  max-width: 245px;
+  margin-bottom: 23px;
+}
+.special-offer-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+.offer-price-new {
+  font-family: "Mulish", sans-serif;
+  color: #7ac751;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+.offer-price-old {
+  font-family: "Mulish", sans-serif;
+  color: #cccccc;
+  font-size: 18px;
+  text-decoration: line-through;
+  margin-right: 19px;
+}
+.offer-shop {
+  background-color: #7ac751;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 7px 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.special-offer-time {
+  display: flex;
+}
+.offer-time-block {
+  font-family: "Rubik", sans-serif;
+  background-color: #7ac751;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+.number {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px 0 11px;
+}
+.description {
+  color: #ffffff;
+  font-size: 6px;
+  padding: 0 10px 7px 12px;
+  text-transform: uppercase;
+}
+.special-offer-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.testimonials-card-grey {
+  background-color: #f8fafb;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 115px;
+  max-width: 816px;
+  height: 312px;
+}
+.testimonials-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonials-foto {
+  width: 88px;
+  height: 88px;
+}
+.testimonials-human {
+  position: absolute;
+  top: -40px;
+  margin-left: 364px;
+}
+
+.testimonials-card-grey {
+  position: relative;
+  text-align: center;
+}
+.testimonials-text {
+  margin: 80px 125px 32px 125px;
+  color: #515151;
+  font-size: 16px;
 }
