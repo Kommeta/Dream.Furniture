@@ -871,12 +871,53 @@
   max-height: 10px;
   align-items: center;
 }
-.component-text {
+.block-component {
   font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 124px;
+  margin-bottom: 59px;
+}
+.component-text {
   color: #555555;
   font-size: 16px;
   line-height: 32px;
   max-width: 318px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.networking {
+  margin-right: 34px;
+  text-decoration: none;
+}
+.image-facebook {
+  width: 8px;
+  height: 17px;
+}
+.image-twitter {
+  width: 17px;
+  height: 13px;
+}
+.image-instagram {
+  width: 16px;
+  height: 16px;
+}
+.image-pinterest {
+  width: 13px;
+  height: 17px;
+}
+.component-help {
+  display: flex;
+  flex-direction: column;
+}
+.component-help,
+a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 18px;
+  line-height: 40px;
+}
+.title-help {
+  font-weight: bold;
 }
