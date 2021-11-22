@@ -921,3 +921,23 @@ a {
 .title-help {
   font-weight: bold;
 }
+.futer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-family: "Rubik", sans-serif;
+}
+.futer-section {
+  border-top: 1px solid #969696;
+}
+.futer-text {
+  color: #555555;
+  font-size: 14px;
+}
+.info-text {
+  margin-left: 52px;
+  color: #555555;
+  font-size: 14px;
+}
