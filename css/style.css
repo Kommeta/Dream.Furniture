@@ -189,7 +189,8 @@
   display: flex;
   max-width: 260px;
   max-height: 67px;
-  margin-right: 50px;
+  padding: 24px 40px 24px 0;
+  align-items: center;
 }
 .contenier-menu {
   display: flex;
@@ -205,15 +206,14 @@
 }
 .all-title {
   color: #ffffff;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 40px;
+
   font-size: 16px;
   font-weight: 600;
 }
 .menu-categories {
   font-size: 14px;
   text-transform: uppercase;
+  margin-left: 40px;
 }
 .categories-link {
   display: inline-block;
@@ -290,8 +290,6 @@
 }
 .button {
   background-color: #7ac751;
-  max-height: 40px;
-  max-width: 129px;
   padding: 10px 18px;
   border-radius: 5px;
 }
@@ -945,7 +943,7 @@
 
 /*Responsive*/
 
-/* 992 - 1200 
+/* 992 - 1200 */
 @media screen and (max-width: 1200px) {
   .contenier {
     width: 960px;
@@ -958,40 +956,202 @@
     margin-left: 60px;
   }
   .collections {
-    margin-right: 10px;
+    width: 220px;
+    padding-right: 0;
+  }
+  .collections-name {
     width: 220px;
   }
-  .collections-name{
-    width: 220px;
-  }
-  .all{
+  .all {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .all-title{
-    margin-right: 20px;
-  }
+
   .top-title {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 0;
+    max-width: 275px;
+    margin-bottom: 20px;
+  }
+  .contenier-page {
+    padding: 35px 0;
+  }
+  .page-top {
+    align-items: center;
+  }
+  .text-green {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .line-green {
+    margin-left: 105px;
+  }
+  .title-grey {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .furniture-img {
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+  }
+  .top-img-contenier {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: -35px;
+  }
+  .trending-title {
+    margin-top: 80px;
+  }
+  .trendibg-bloсk {
+    justify-content: space-evenly;
+  }
+  .special-offer-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .special-offer-room {
+    margin-bottom: 20px;
+  }
 }
 
-/* 768 - 992 
+/* 768 - 992 */
 @media screen and (max-width: 992px) {
   .contenier {
     width: 720px;
   }
+  .contenier-beginning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenier-info {
+    margin-bottom: 15px;
+  }
+  .currency {
+    margin: auto 20px auto 10px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .logo-image {
+    max-height: 32px;
+  }
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .search-form {
+    order: 5;
+    margin-top: 20px;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .shopping-cart {
+    margin-left: 300px;
+  }
+  .all {
+    width: 20px;
+    height: 20px;
+  }
+  .menu-categories {
+    margin-left: 20px;
+  }
+  .categories-link {
+    margin: 0 15px;
+  }
+  .page-top {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contenier-page {
+    max-width: 486px;
+    padding: 15px 0;
+  }
+  .top-title {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .line-green {
+    margin-left: 316px;
+    max-width: 130px;
+  }
+  .title-grey {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .contenier-top {
+    max-height: 560px;
+  }
+  .button {
+    padding: 10px 180px;
+  }
+  .top-img-contenier {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  .top-img-variant {
+    margin-bottom: 15px;
+  }
+  .feature {
+    margin-top: 35px;
+
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+  }
+  .card {
+    width: 280px;
+    margin-top: 20px;
+  }
+  .card-miniheader {
+    width: 50%;
+  }
+  .card-title-minisection {
+    font-size: 19px;
+  }
+  .card-mini-description {
+    font-size: 16px;
+  }
+  .testimonials-human {
+    margin-left: 240px;
+  }
+  .component-text {
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 245px;
+  }
+  .title-help {
+    margin-bottom: 19px;
+  }
+  .component-footer a {
+    font-size: 17px;
+    line-height: 38px;
+  }
 }
 
-/* 576 - 768 
+/* 576 - 768 */
 @media screen and (max-width: 768px) {
   .contenier {
     width: 540px;
   }
 }
 
-/* 0 - 576 
+/* 0 - 576 */
 @media screen and (max-width: 576px) {
   .contenier {
     width: 90%;
-
-}*/
+  }
+}
