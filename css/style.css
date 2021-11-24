@@ -1248,4 +1248,106 @@
   .contenier {
     width: 90%;
   }
+  .contenier-beginning {
+    font-size: 90%;
+  }
+  .currency-English {
+    width: 60px;
+  }
+  .auth {
+    width: 85px;
+  }
+  .header {
+    justify-content: center;
+  }
+  .logo-image {
+    max-height: 20px;
+  }
+  .logo-name {
+    font-size: 12px;
+  }
+  .logo {
+    margin: 0 100px;
+  }
+  .shopping-cart {
+    margin: 25px 18px;
+  }
+  .notification {
+    margin: 0 50px;
+    padding: 25px 0;
+  }
+  .person {
+    margin: 0 12px;
+    padding: 25px 0;
+  }
+  .search-form {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .search-input {
+    border-radius: 8px 8px 0 0;
+  }
+  .search-block {
+    border-left: 2.5px solid #7ac751;
+    border-radius: 0 8px 8px 8px;
+    border-top: none;
+    padding: 5px;
+  }
+  .collections-name {
+    justify-content: center;
+  }
+  .text-green {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .line-green {
+    margin-left: 2px;
+    max-width: 100px;
+  }
+  .title-grey {
+    font-size: 15px;
+  }
+  .button {
+    padding: 6px 85px;
+  }
+  .furniture-img {
+    width: 65%;
+  }
+  .top-img-contenier {
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
+  .desk {
+    max-width: 43px;
+  }
+  .sofa {
+    max-width: 69px;
+  }
+  .chair {
+    max-width: 43px;
+  }
+  .contenier-top {
+    max-height: 725px;
+  }
+  .feature {
+    margin-top: 0;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 85%;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card-img {
+    height: 40px;
+  }
+  .shipping-title {
+    font-size: 16px;
+  }
+  .card-info {
+    font-size: 12px;
+  }
 }
