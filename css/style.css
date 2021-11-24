@@ -1055,7 +1055,7 @@
     margin-left: 0;
   }
   .shopping-cart {
-    margin-left: 300px;
+    margin-left: 60%;
   }
   .all {
     width: 20px;
@@ -1146,6 +1146,100 @@
 @media screen and (max-width: 768px) {
   .contenier {
     width: 540px;
+  }
+  .shopping-cart {
+    margin-left: 40%;
+  }
+  .contenier-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .collections {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  .all {
+    margin: 0 15px 0 0;
+  }
+  .menu-categories {
+    width: 100%;
+    margin: 0;
+  }
+  .categories-link {
+    margin: 0 25px;
+    padding: 15px 0;
+  }
+  .contenier-top {
+    flex-direction: column;
+    max-height: 650px;
+  }
+  .collections-name {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .name-list {
+    padding: 0 20px;
+  }
+  .contenier-page {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .offer {
+    flex-wrap: wrap;
+  }
+  .offer-minisection {
+    max-width: 100%;
+  }
+  .offer-geometric {
+    max-width: 100%;
+  }
+  .offer-section {
+    margin: 0;
+  }
+  .offer-modern {
+    margin-bottom: 17px;
+  }
+  .offer-minimal {
+    max-width: 100%;
+  }
+  .trending-chair {
+    max-width: 49%;
+  }
+  .testimonials-text {
+    margin: 50px 20px;
+  }
+  .testimonials-human {
+    margin-left: 170px;
+    top: -50px;
+  }
+  .block-component {
+    flex-direction: column;
+  }
+  .component-text {
+    max-width: 100%;
+  }
+  .component-sosmed {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .title-help {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .component-footer {
+    align-items: center;
+  }
+  .component-text {
+    text-align: center;
+  }
+  .logo-footer {
+    justify-content: center;
+  }
+  .futer-text {
+    width: 24%;
   }
 }
 
