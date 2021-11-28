@@ -1625,8 +1625,12 @@
   .block-distant {
     margin-bottom: 40px;
   }
+  .post-cards {
+    flex-direction: column;
+    align-items: center;
+  }
   .post-card {
-    width: 100%;
+    width: auto;
   }
   .post-img {
     max-width: 100%;
