@@ -1602,7 +1602,7 @@
     font-size: 14px;
   }
   .testimonials-human {
-    margin-left: 43%;
+    margin-left: 40%;
     top: -39px;
   }
   .testimonials {
@@ -1631,9 +1631,11 @@
   }
   .post-card {
     width: auto;
+    overflow: hidden;
   }
   .post-img {
     max-width: 100%;
+    height: auto;
   }
   .post-content {
     top: 53px;
@@ -1692,7 +1694,7 @@
     font-size: 12px;
   }
 
-  .category-products {
+  /*.category-products {
     font-size: 16px;
   }
   .tre .shipping-title {
@@ -1700,5 +1702,5 @@
   }
   .card-info {
     font-size: 11px;
-  }
+  }*/
 }
